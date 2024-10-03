@@ -1,3 +1,14 @@
+1. (Relatively Stabillity) Pegged or Ancored -> $1.00; only pegged because we are not scalling the stable coin. (Would use a float to scale).
+    - Chainlink price feed. (that is how we chain coin to a dollar)
+    - Set a funciton to exchange BTC and ETH -> $$$(or whatever the dollar equivalent is)
+2. Stability mechanism (minting): Algorithmic (NO centralized entity); on chain and algorithmic 
+    - people can only mint Bitzona stablecoin with enough collateral (coded directly into the protocol)
+3. Collateral: Exogenous (Crypto); use crypto as collateral
+    - (only allow these two crypto currencies to be deposited)
+        - wBTC (wrapped BTC/ ERC20 version of BTC)
+        - wETH (wrapped ETH/ ERC20 version of ETH)
+4. 
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
